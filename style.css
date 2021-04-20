@@ -1,0 +1,77 @@
+/* ---------- Main CSS style ---------- */
+body {
+    width:80%;
+    height: 100%;
+    margin:40px auto;
+    transition-duration:1s;
+    text-align: center; 
+    font-family: Arial, Helvetica, sans-serif; 
+    color: rgb(69,69,69); 
+    background-color: #f3f3f3;
+}
+div#login {
+    margin-top: 150px;
+}
+#email-input, #password-input {
+    outline: none;
+    width: 200px;
+    height: 25px;
+    border:#f3f3f3 1px;
+    border-radius: 5px;
+    margin: 5px;
+}
+#terms-input {
+    margin:10px 0px 10px 0px;
+}
+#submit-input {
+    width: 200px;
+    height: 25px;
+    margin-top: 10px;
+}
+h1 {
+    font-weight:bolder;
+    font-family: Dancing Script;
+    font-size:40px;
+}
+a {
+    color:rgb(109, 164, 182);
+}
+div#termsContainer {
+    margin:50px auto;
+    padding: 30px;
+    width:50%;
+    background-color: white;
+}
+div#termsText {
+    text-align: justify;
+    font-size:small;
+}
+p {
+    text-indent: 20px;
+}
+footer > div {
+    position: relative;
+    bottom: 0px;
+    font-size: 15px;
+    font-family: Montserrat;
+
+}
+footer > div > hr {
+    margin: 20px auto;
+}
+
+/* ---------- Media Queries ---------- */
+
+@media (max-width:600px){
+    div#termsContainer {
+        width: 90%;
+        margin:10px 0px 0px 0px auto;
+        padding: 10px;
+    }
+    body {
+        width:95%;
+    }
+    div#login {
+        margin-top: 70px;
+    }   
+}
