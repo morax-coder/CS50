@@ -45,6 +45,7 @@ div#termsContainer {
 div#termsText {
     text-align: justify;
     font-size:small;
+    color:rgb(105, 105, 105);
 }
 p {
     text-indent: 20px;
